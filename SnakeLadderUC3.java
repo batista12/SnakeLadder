@@ -1,4 +1,4 @@
-public class SnakeLadderUC2 {
+public class SnakeLadderUC3 {
    public static void main(String[] args){
    
       int rollDice =(int)(Math.random() * 6) +1;
