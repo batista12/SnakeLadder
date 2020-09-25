@@ -1,6 +1,6 @@
 public class SnakeLadderUC4 {
    public static void main(String[] args){
-d0{
+do{
       int rollDice =(int)(Math.random() * 6) +1;
       int PLAYER_POSITION=0,option=0;
       option =(int)(Math.random() * 3);
