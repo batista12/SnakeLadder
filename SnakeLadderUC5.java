@@ -1,4 +1,4 @@
-public class SnakeLadderUC4 {
+public class SnakeLadderUC5 {
    public static void main(String[] args){
       int PLAYER_POSITION=0,option=0,Count=0;
       while(PLAYER_POSITION<100){
