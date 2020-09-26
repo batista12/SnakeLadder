@@ -62,8 +62,8 @@ public class SnakeLadderUC7 {
    }}
    
    if(PLAYER_POSITION1==100)
-   System.out.println("player 1 is winner " + Times1);
+   System.out.println("player 1 is winner with count " + Times1);
    else
-   System.out.println("player 2 is winner " + Times2);
+   System.out.println("player 2 is winner with count " + Times2);
 }
 }
