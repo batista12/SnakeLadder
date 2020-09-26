@@ -1,10 +1,9 @@
 public class SnakeLadderUC7 {
 
-    public int rollDice(){ int rollDice =(int)(Math.random() * 6) +1;return rollDice;}
-    public string Playervalue(PLAYER_POSITION){}
+   
      public static void main(String[] args){
-      int PLAYER_POSITION1=0,PLAYER_POSITION2=0,Count=0,Times1=0,Times2=0;
-      while(PLAYER_POSITION<100 && PLAYER_POSITION<100){
+      int PLAYER_POSITION1=0,PLAYER_POSITION2=0,Count=0,Times1=0,Times2=0,option=0;
+      while(PLAYER_POSITION1<100 && PLAYER_POSITION2<100){
       Count++;
       if(Count%2==0){
       do{
@@ -25,7 +24,7 @@ public class SnakeLadderUC7 {
 
    }Times1++;
    if(PLAYER_POSITION1<0)
-   PLAYER_POSITION=0;
+   PLAYER_POSITION1=0;
    if(PLAYER_POSITION1>100)
    PLAYER_POSITION1=rollDice;
    System.out.println("Current position : " + PLAYER_POSITION1);
@@ -62,7 +61,7 @@ public class SnakeLadderUC7 {
    
    }}
    
-   if(POSITION_PLAYER1==100)
+   if(PLAYER_POSITION1==100)
    System.out.println("player 1 is winner " + Times1);
    else
    System.out.println("player 2 is winner " + Times2);
